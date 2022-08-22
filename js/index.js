@@ -17,8 +17,8 @@ window.navigator.getBattery()
             }
         }
         updateStatus();
-        batteryManager.addEventLisetner("chargingchange", updateStatus);
-        batteryManager.addEventLisetner("levelchange", updateLevel);
+        batteryManager.addEventListener("chargingchange", updateStatus);
+        batteryManager.addEventListener("levelchange", updateLevel);
         
     });
 
