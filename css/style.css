@@ -1,0 +1,15 @@
+#charging-state {
+    width: 50vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    #charging-state {
+        width: 80vw;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 30px;
+    }
+}
